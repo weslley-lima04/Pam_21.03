@@ -44,11 +44,12 @@ public class LoginActivity extends AppCompatActivity {
                 if (nome.equals("etecia") && email.equals("etecia"))
                 {
 
-                    //abrindo outra janela
+                    //abrindo outra janela - start activity
                     startActivity(new Intent(getApplicationContext(),MainActivity.class));
                 }
                 else
                 {
+                    //usando toast para mostrar mensagem
                     Toast.makeText(getApplicationContext(),
                             "Usuário ou senha inválidos!!!",
                             Toast.LENGTH_SHORT).show();
