@@ -31,12 +31,34 @@ public class MenuActivity extends AppCompatActivity {
             case R.id.icCadastrar:
                 Toast.makeText(
                         getApplicationContext(),
-                        "Cadastrado com sucesso",
+                        "Cadastrado com sucesso!",
                         Toast.LENGTH_LONG
                 ).show();
+            break;
+            case R.id.icAtualizar:
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Atualizado com sucesso!",
+                        Toast.LENGTH_LONG
+                ).show();
+            break;
+            case R.id.icExcluir:
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Excluído com sucesso!",
+                        Toast.LENGTH_LONG
+                ).show();
+            break;
+            case R.id.icPesquisar:
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Pesquisando...",
+                        Toast.LENGTH_LONG
+                ).show();
+            break;
+
+
         }
-
-
         return super.onOptionsItemSelected(item);
     }
 }
