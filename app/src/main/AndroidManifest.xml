@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPets">
         <activity
+            android:name=".CatActivity"
+            android:exported="false" />
+        <activity
             android:name=".CafeBadilicoActivity"
             android:exported="false" />
         <activity
