@@ -7,6 +7,7 @@
     tools:context=".CafeBadilicoActivity">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/idCardView"
         android:layout_width="350dp"
         android:layout_height="500dp">
 
@@ -83,6 +84,7 @@
 
 
                     <Button
+                        android:id="@+id/btnCincoeMeia"
                         style="?attr/materialButtonOutlinedStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -93,6 +95,7 @@
                         android:textSize="11sp" />
 
                     <Button
+                        android:id="@+id/btnSeteeMeia"
                         style="?attr/materialButtonOutlinedStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -103,6 +106,7 @@
                         android:textSize="10sp" />
 
                     <Button
+                        android:id="@+id/btnOitohoras"
                         style="?attr/materialButtonOutlinedStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -113,6 +117,7 @@
                         android:textSize="11sp" />
 
                     <Button
+                        android:id="@+id/btnNovehoras"
                         style="?attr/materialButtonOutlinedStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -127,6 +132,7 @@
 
 
                 <Button
+                    android:id="@+id/btnReserve"
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
