@@ -7,13 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class CafeBadilicoActivity extends AppCompatActivity {
     CardView idCardView;
-    Button btnCincoeMeia;
-    Button btnSeteeMeia;
-    Button btnOitohoras;
-    Button btnNovehoras;
-    Button btnReserve;
+    Button btnCincoeMeia, btnSeteeMeia, btnOitohoras, btnNovehoras, btnReserve;
+    FloatingActionButton btn_fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,5 +69,14 @@ public class CafeBadilicoActivity extends AppCompatActivity {
 
             }
         });
+        //FAB
+        btn_fab = findViewById(R.id.btn_fab);
+        btn_fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
     }
 }
