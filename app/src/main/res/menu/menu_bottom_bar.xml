@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/btm_buscar"
         android:contentDescription="Buscar conteudo"
         android:icon="@drawable/ic_search"
-        android:title="Buscar"/>
-
+        android:title="Buscar"
+        app:showAsAction="ifRoom" />
 
     <item
+        android:id="@+id/btm_email"
         android:contentDescription="Email"
         android:icon="@drawable/ic_email"
-        android:title="Email"/>
+        android:title="Email"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btm_favorite"
+        android:contentDescription="Favoritos"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="Favorito"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btm_compartilhar"
+        android:contentDescription="Compartilhar"
+        android:icon="@drawable/ic_baseline_share"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom" />
 </menu>

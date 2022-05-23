@@ -19,7 +19,7 @@
             app:menu="@menu/menu_bottom_bar"
             style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
             />
-
+<!-- a tag menu chama o menu que fizemos a parte-->
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
