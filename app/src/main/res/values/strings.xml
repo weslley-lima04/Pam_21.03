@@ -5,4 +5,7 @@
     <string name="entrar">Entrar</string>
     <string name="sair">Sair</string>
     <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
+    <string name="cachorros">Cachorros</string>
+    <string name="gatos">Gatos</string>
+    <string name="p_ssaros">Pássaros</string>
 </resources>
